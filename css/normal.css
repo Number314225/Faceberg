@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ul,ol,li{
+    text-decoration: none;
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+.online{
+    color: #11ee11;
+}
+.offline{
+    color: #ee1111;
+}

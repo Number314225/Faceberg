@@ -1,0 +1,340 @@
+.main{
+    padding: 0;
+    height: 100%;
+    /*border: solid 2px red;*/
+    min-height: 648px;
+}
+.panel{
+    margin: 0 auto;
+    height: 100%;
+    min-height: 648px;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 800px;
+    border: solid 1px #232323;
+    border-radius: 5px;
+}
+.userPanel{
+    float: left;
+    height: 646px;
+    width: 30%;
+    background-color: #444444;
+}
+
+/*
+* 左上部分的 div 内分布设计
+*
+*
+ */
+
+.userInfo{
+    width: 100%;
+    height: 20%;
+    background-color: #131313;
+}
+.userInfo img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.userName{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-family: Verdana, sans-serif;
+    cursor: pointer;
+    color: orange;
+}
+.userName:hover{
+    text-decoration: underline;
+}
+
+.userName:before{
+    color: blue;
+    content: '\00bb';
+}
+
+.userName:hover:after{
+    color: blue;
+    content: '\00ab';
+}
+
+/*
+* 左下部分的 div 内分布设计
+*
+*
+ */
+.userTool{
+    width: 100%;
+    height: 80%;
+    background-color: purple;
+    overflow-y: auto;
+}
+.scrollBar{
+    /*float: left;*/
+    /*width: 50px;*/
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+    /*margin-bottom: 25px;*/
+}
+/*.force-overflow{
+    min-height: 450px;
+}*/
+.scrollBar::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    /*background-color: #f5f5f5;*/
+}
+.scrollBar::-webkit-scrollbar{
+    width: 5px;
+    /*background-color: #f5f5f5;*/
+}
+.scrollBar::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #d62929;
+}
+
+.userTool ul{
+    font-size: 0;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+.oneFrnd{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    transition: 0.5s;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+.oneFrnd:hover{
+    background-color: #111;
+    cursor: pointer;
+}
+.oneFrnd img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    /*margin-top: 10px;*/
+    margin-left: 10px;
+    /*border: 3px solid red;*/
+
+}
+.frndName{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    /*border: 1px solid red;*/
+    font-size: 15px;
+    font-family: Time New Roman;
+}
+/*.frndName:before{
+    color: blue;
+    content: '\00bb';
+}*/
+.frndName:hover{
+    text-decoration: underline;
+}
+
+
+
+/*
+* 右上部分设计 对话框 及 其他待定部分
+*
+*
+ */
+.chatPanel{
+    float: right;
+    height: 646px;
+    width: 70%;
+    background-color: green;
+}
+.chatTextPanel{
+    width: 100%;
+    height: 75%;
+    background-color: #e0e0e0;
+    overflow-y: auto;
+}
+
+.oneMsg{
+    width: 99%;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px;
+    border: 1px dotted #6e6e6e;
+    border-radius: 5px;
+    /*height: auto;*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.avatarHolder{
+    width: 15%;
+    height: auto;
+    /*background-color: red;*/
+    vertical-align: middle;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.avatarHolder img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    vertical-align: middle;
+    /*border: solid 1px #000;*/
+    border-radius: 5px;
+}
+.msgHolder{
+    width: 85%;
+    /*min-height: inherit;*/
+    /*background-color: green;*/
+    padding: 4px;
+}
+
+.frndAvatar{
+    float: left;
+}
+.frndMsg{
+    float: right;
+}
+
+.myAvatar{
+    float: right;
+}
+.myMsg{
+    float: left;
+    text-align: right;
+}
+
+.times{
+    text-align: center;
+    font-size: 10px;
+    color: #aaa;
+}
+
+
+
+
+/*
+.chatText li{
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+}
+.chatText img{
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+.imgHolder{
+    display: inline-block;
+    width: 8%;
+}
+.msgHolder{
+    display: inline-block;
+    width: 91%;
+    height: auto;
+    background-color: #f0f0f0;
+}
+.myMsg{
+    text-align: right;
+    float: right;
+    margin: 5px;
+}
+.otherMsg{
+
+}
+.otherImg{
+    float: left;
+}
+.myImg{
+    float: right;
+}
+*/
+
+
+
+/*
+*
+*
+*
+ */
+.sendText{
+    width: 100%;
+    height: 25%;
+    background-color: white;
+}
+
+
+.userEvent{
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+}
+
+
+.sendBtn{
+    position: relative;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    /*margin: auto;*/
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.sendBtn:after{
+    content: "";
+    background: #90ee90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 300%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+.sendBtn:active:after{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+#typeText{
+    width: 100%;
+    height: 80%;
+    resize: none;
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
