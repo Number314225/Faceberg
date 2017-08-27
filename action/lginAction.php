@@ -40,5 +40,5 @@
         echo '<p style="color: red;"> Error </p>';
     }
     mysqli_close($con);
-    header("location: http://localhost:8081/Faceberg/user.php?userID=".$userID);
+    header("location: ../user.php?userID=".$userID);
 ?>
