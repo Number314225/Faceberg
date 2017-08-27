@@ -1,3 +1,3 @@
 <?php
-    $con = mysqli_connect('localhost', 'number_ddd', '314225AN41');
+    $con = mysqli_connect('108.61.217.75', 'numberphpmyadmin', 'facebergwardo');
 ?>
