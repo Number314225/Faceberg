@@ -1,24 +1,28 @@
-	¼üÃû		±¸×¢
-ÓÃ»§±í user
+##Faceberg
+======================
+ä¸€ä¸ªç®€å•çš„èŠå¤©å®¤ç½‘ç«™ï¼ˆåŠæˆå“ï¼‰
+
+é”®å		å¤‡æ³¨
+ç”¨æˆ·è¡¨ user
 	id			ID
-	email		ÓÊÏä-------------
-	password	ÃÜÂë-------------
-	name		ÓÃ»§Ãû(for chat)----------			²»³¬¹ý20¸ö×Ö·û(10¸öÖÐÎÄ×Ö»ò20¸öÓ¢ÎÄ×Ö)
-	sex			ÐÔ±ð
-	avatarImg	Í·ÏñÎÄ¼þÃû
-	frndCnt		ºÃÓÑÊý
-	signTime	×¢²áÊ±¼ä(ÄêÔÂÈÕÊ±·ÖÃë)----------
+	email		é‚®ç®±-------------
+	password	å¯†ç -------------
+	name		ç”¨æˆ·å(for chat)----------			ä¸è¶…è¿‡20ä¸ªå­—ç¬¦(10ä¸ªä¸­æ–‡å­—æˆ–20ä¸ªè‹±æ–‡å­—)
+	sex			æ€§åˆ«
+	avatarImg	å¤´åƒæ–‡ä»¶å
+	frndCnt		å¥½å‹æ•°
+	signTime	æ³¨å†Œæ—¶é—´(å¹´æœˆæ—¥æ—¶åˆ†ç§’)----------
 	
-ÓÃ»§ºÃÓÑ±í(Ã¿¸öÓÃ»§Ò»¸ö)
-	id			¶Ô·½ID
+ç”¨æˆ·å¥½å‹è¡¨(æ¯ä¸ªç”¨æˆ·ä¸€ä¸ª)
+	id			å¯¹æ–¹ID
 	
-ºÃÓÑÉêÇë±í
-	frmID		ÉêÇë·½ID
-	toID		½ÓÊÕ·½ID
-	rcvTime		ÉêÇë·½ÉêÇëÊ±¼ä(ÄêÔÂÈÕÊ±·ÖÃë)
+å¥½å‹ç”³è¯·è¡¨
+	frmID		ç”³è¯·æ–¹ID
+	toID		æŽ¥æ”¶æ–¹ID
+	rcvTime		ç”³è¯·æ–¹ç”³è¯·æ—¶é—´(å¹´æœˆæ—¥æ—¶åˆ†ç§’)
 	
-ÁÄÌìÐÅÏ¢±í
-	frmID		·¢ËÍ·½ID
-	toID		½ÓÊÕ·½ID
-	msgStr		ÏûÏ¢×Ö·û´®
-	msgTime		·¢ËÍÊ±¼ä(ÄêÔÂÈÕÊ±·ÖÃë)
+èŠå¤©ä¿¡æ¯è¡¨
+	frmID		å‘é€æ–¹ID
+	toID		æŽ¥æ”¶æ–¹ID
+	msgStr		æ¶ˆæ¯å­—ç¬¦ä¸²
+	msgTime		å‘é€æ—¶é—´(å¹´æœˆæ—¥æ—¶åˆ†ç§’)
