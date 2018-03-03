@@ -1,25 +1,23 @@
 Faceberg
 =============================
 
-### 1、简介
+### 一、简介
     一个简单的聊天室网站（半成品、上交用）
 
-### 2、数据库表如下(MySQL)
+### 二、数据库表如下(MySQL)
 
-用户表
+#### 1、用户表
 
 | 键名  | 类型 | 备注 |
-|------|------|------|
-|user|tinyint|用户ID|
-
-
-用户表
-
-| 键名  | 类型|
-| ---------- | -----------|
-| user   | tinyint   |
-| 表格单元   | 表格单元   |
-  
+|:--------- |:------------ | :---------- |
+| id        | tinyint      | 用户ID      |
+| email     | nvarchar(30) | 注册邮箱地址 |
+| password  | nvarchar(30) | 密码        |
+| name      | nvarchar(20) | 姓名或昵称   |
+| sex       | tinyint      | 性别        |
+| avatarImg | nvarchar(20) | 头像路径     |
+| frndCnt   | tinyint      | 好友数量     |
+| signTime  | nvarchar(20) | 注册时间     |
   
   
 without
