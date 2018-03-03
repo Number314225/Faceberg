@@ -57,4 +57,7 @@ without
 	msgStr		消息字符串
 	msgTime		发送时间(年月日时分秒)
 
-```diff dddd
+```diff
++ 多一事
+- 少一事
+```
